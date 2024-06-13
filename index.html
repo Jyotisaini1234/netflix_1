@@ -8,48 +8,87 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="img/main.png"
+      class="main"
+    />
+
     <script src="js/script.js"></script>
     <title>Netflex - Watch Tv Shows Online ,Watch Movies Online</title>
   </head>
   <body>
-    <header class="header">
-      <div class="head">
-        <img src="img/netflix-icon.png" alt="Netflex" class="netflix-icon" />
+    <main>
+      <header class="header">
+        <div class="head">
+          <img src="img/netflix-icon.png" alt="Netflex" class="netflix-icon" />
 
-        <div class="language-sign">
-          <ul class="netflix-item">
-            <select id="language" name="Language">
-              <img
-                src="img/translate_icon.png"
-                alt="translate"
-                class="translate-icon"
-              />
-              <option value="English">English</option>
-              <option value="Hindi">Hindi</option>
-            </select>
-          </ul>
-          <button class="btn-sign-in" type="button">
-            <a href="#" class="btn-sign-1">Sign In</a>
-          </button>
+          <div class="language-sign">
+            <ul class="netflix-item">
+              <select id="language" name="Language">
+                <img
+                  src="img/translate_icon.png"
+                  alt="translate"
+                  class="translate-icon"
+                />
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+              </select>
+            </ul>
+            <button class="btn-sign-in" type="button">
+              <a href="#" class="btn-sign-1">Sign In</a>
+            </button>
+          </div>
         </div>
-      </div>
-      <!-- /////////////////content -->
-      <div class="header-content">
-        <h1>Unlimited movies, TV shows and more</h1>
-        <h2>Watch anywhere. Cancel anytime.</h2>
-        <h3>
-          Ready to watch? Enter your email to create or restart your membership.
-        </h3>
-        <div class="sing-email">
-          <input
-            type="email"
-            required
-            placeholder="Email Address"
-            class="email"
-          />
-          <button class="btn-start">Get Started</button>
+        <!-- /////////////////content -->
+        <div class="header-content">
+          <h1>Unlimited movies, TV shows and more</h1>
+          <h2>Watch anywhere. Cancel anytime.</h2>
+          <h3>
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </h3>
+          <div class="sing-email">
+            <input
+              type="email"
+              required
+              placeholder="Email Address"
+              class="email"
+            />
+            <button class="btn-start">Get Started</button>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
+      <hr class="hr1" />
+      <section class="tv">
+        <div class="tv-content">
+          <h1>Enjoy on your TV</h1>
+          <p>
+            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+            players and more.
+          </p>
+        </div>
+        <div class="tv-video">
+          <div class="tv-img"></div>
+          <img
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+            alt=""
+            class="tv-img"
+          /></div>
+          <video width="400" controls>
+            <source
+              src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </section>
+      <section class="download"></section>
+      <section class="watch"></section>
+      <section class="kids"></section>
+      <section class="question"></section>
+      <section class="details"></section>
+    </main>
   </body>
 </html>
